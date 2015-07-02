@@ -11,11 +11,13 @@ completion-scope: Class Implementation
     return <#number#>;
 }
 
+
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section
 {
     return <#number#>;
 }
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -26,6 +28,7 @@ completion-scope: Class Implementation
 
     return cell;
 }
+
 
 - (void)configureCell:(UITableViewCell *)cell
     forRowAtIndexPath:(NSIndexPath *)indexPath

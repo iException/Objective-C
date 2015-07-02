@@ -11,6 +11,7 @@ completion-scope: Class Implementation
     [self.tableView beginUpdates];
 }
 
+
 - (void)controller:(NSFetchedResultsController *)controller
   didChangeSection:(id <NSFetchedResultsSectionInfo>)sectionInfo
            atIndex:(NSUInteger)sectionIndex
@@ -25,6 +26,7 @@ completion-scope: Class Implementation
             break;
     }
 }
+
 
 - (void)controller:(NSFetchedResultsController *)controller
    didChangeObject:(id)object
@@ -48,6 +50,7 @@ completion-scope: Class Implementation
             break;
     }
 }
+
 
 - (void)controllerDidChangeContent:(NSFetchedResultsController *)controller {
     [self.tableView endUpdates];

@@ -13,6 +13,7 @@ numberOfRowsInComponent:(NSInteger)component
   return <#number#>
 }
 
+
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
   return <#number#>
 }

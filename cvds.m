@@ -13,6 +13,7 @@ completion-scope: Class Implementation
     return <#numberOfItemsInSection#>;
 }
 
+
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
                   cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -22,6 +23,7 @@ completion-scope: Class Implementation
 
     return cell;
 }
+
 
 - (void)configureCell:(UICollectionViewCell *)cell
    forItemAtIndexPath:(NSIndexPath *)indexPath
